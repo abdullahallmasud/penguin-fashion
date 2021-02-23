@@ -3,12 +3,24 @@ body{
     font-size:10px;
 }
 /* SECTION */
-nav{
+header{
+    width: 100%;
+    height: 100px;
     background-color: #fffbf0;
 }
 .navbar-brand img{
     width: 20rem !important;
 } 
+.navbar{
+    justify-content: space-between;
+}
+.navbar-toggler{
+    background-color:#363958;
+}
+.nav-link{
+    font-size: 1rem;
+    color:#232C32;
+}
 /* SECTION */
 .top-section{
     background-color: #fffbf0;
@@ -51,7 +63,8 @@ nav{
 /* SECTION Woman Jacket*/
 .card{
     border: none !important;
-    width:18rem;
+    
+    /* width:18rem; */
 }
 .card-header{border-bottom: none !important;}
 .card-title {
