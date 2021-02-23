@@ -1,0 +1,25 @@
+
+/* Extra Small devices */
+@media (max-width: 575px) { 
+    *{padding-bottom: 10px;padding-top: 5px;}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    *{padding-bottom: 10px;padding-top: 5px;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) { 
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1199px) { 
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
