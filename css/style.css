@@ -1,31 +1,44 @@
-*{margin: 0 auto;padding: 0 auto;}
 body{
-    font-size:10px;
+    box-sizing: border-box;
 }
+*{margin: 0 auto;padding: 0 auto;}
 /* SECTION */
 header{
+    /* position: absolute; */
+    
     width: 100%;
-    height: 100px;
+    height: 20vh;
     background-color: #fffbf0;
+}
+.navbar {
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 10;
+}
+.navbar-brand{
+    margin-left: 0;
 }
 .navbar-brand img{
     width: 20rem !important;
-} 
-.navbar{
-    justify-content: space-between;
 }
-.navbar-toggler{
-    background-color:#363958;
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
+
 .nav-link{
     font-size: 1rem;
-    color:#232C32;
+    color: rgb(0 0 0) !important;
+    font-weight: 500;
 }
 /* SECTION */
 .top-section{
+    /* position: relative; */
     background-color: #fffbf0;
-    height:auto ;
-    padding: 7rem 0;
+    min-height: 80vh ;
+    padding: 5rem 0;
 }
 
 .top-section h1 {
@@ -58,7 +71,7 @@ header{
     width: 20px;
 }
 .top-section img{
-    width: 400px;
+    width: 27rem;
 }
 /* SECTION Woman Jacket*/
 .card{
